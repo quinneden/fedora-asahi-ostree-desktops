@@ -3,7 +3,7 @@
 set -ex
 
 sudo podman build -t kinoite-asahi:39 .
-sudo podman login -u='qeden' -p='PThLjlAWJ5mwqkq5KP+g/mumguOFG9s9nJAd7lDg5sPYywaJFAwLOzhBiaJyHJ8e' quay.io
+# sudo podman login quay.io
 sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi
 sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi:39
 
