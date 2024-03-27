@@ -4,8 +4,8 @@ set -ex
 
 sudo podman build -t kinoite-asahi:39 .
 sudo podman login -u='qeden' -p='PThLjlAWJ5mwqkq5KP+g/mumguOFG9s9nJAd7lDg5sPYywaJFAwLOzhBiaJyHJ8e' quay.io
-sudo podman push kinoite-asahi quay.io/ecurtin/kinoite-asahi
-sudo podman push kinoite-asahi quay.io/ecurtin/kinoite-asahi:39
+sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi
+sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi:39
 
 mkdir -p _build
 mkdir -p _build/osbuild_store/{objects,refs,sources/org.osbuild.files,tmp}

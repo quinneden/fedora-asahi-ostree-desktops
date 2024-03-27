@@ -57,7 +57,7 @@ pipelines:
       - type: org.osbuild.ostree.deploy.container
         options:
           osname: kinoite-asahi
-          target_imgref: ostree-remote-registry:quay.io/ecurtin/kinoite-asahi:39
+          target_imgref: ostree-remote-registry:quay.io/qeden/kinoite-asahi:39
           mounts:
             - /boot
             - /boot/efi
