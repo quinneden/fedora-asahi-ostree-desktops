@@ -6,7 +6,7 @@ RUN rpm-ostree cliwrap install-to-root /
 # Replace the kernel, kernel-core and kernel-modules packages.
 RUN rpm-ostree override replace --experimental --from repo='copr:copr.fedorainfracloud.org:group_asahi:kernel' kernel-16k kernel-16k-core kernel-16k-modules kernel-16k-modules-core kernel-16k-modules-extra
 RUN rpm-ostree override replace --experimental --from repo='copr:copr.fedorainfracloud.org:group_asahi:mesa' $(rpm -qa --queryformat "%{NAME}\n" | grep "^mesa" | xargs)
-RUN rpm-ostree override replace --experimental --from repo='copr:copr.fedorainfracloud.org:group_asahi:fedora-remix-branding' fedora-asahi-remix-release fedora-asahi-remix-release-ostree-desktop fedora-asahi-remix-release-identity-kinoite fedora-asahi-remix-release-kinoite
+# RUN rpm-ostree override replace --experimental --from repo='copr:copr.fedorainfracloud.org:group_asahi:fedora-remix-branding' fedora-asahi-remix-release fedora-asahi-remix-release-ostree-desktop fedora-asahi-remix-release-identity-kinoite fedora-asahi-remix-release-kinoite
 RUN rm -f /var/lib/unbound/root.key # workaround see https://github.com/fedora-silverblue/issue-tracker/issues/413
 RUN ostree container commit
 

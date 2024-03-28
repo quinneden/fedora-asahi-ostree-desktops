@@ -1,0 +1,16 @@
+{
+  "blueprint": {
+    "customizations": {
+      "user": [
+        {
+          "name": "quinn",
+          "uid": 1000,
+          "password": "cbro",
+          "groups": [
+            "wheel"
+          ]
+        }
+      ]
+    }
+  }
+}

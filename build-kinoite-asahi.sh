@@ -7,6 +7,7 @@ sudo podman build -t kinoite-asahi:39 .
 sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi
 sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi:39
 
+
 mkdir -p _build
 mkdir -p _build/osbuild_store/{objects,refs,sources/org.osbuild.files,tmp}
 mkdir -p _build/image_output
