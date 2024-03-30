@@ -5,7 +5,7 @@ set -ex
 sudo podman build . -t kinoite-asahi:39
 # sudo podman login quay.io
 sudo podman push kinoite-asahi:39 quay.io/qeden/kinoite-asahi:39
-sudo podman rmi --all
+# sudo podman rmi --all    ## Optional, if disk space is limited
 
 mkdir -p output
 
