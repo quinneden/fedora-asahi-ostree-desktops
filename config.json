@@ -3,9 +3,9 @@
     "customizations": {
       "user": [
         {
-          "name": "quinn",
+          "name": "",
           "uid": 1000,
-          "password": "cbro",
+          "password": "",
           "groups": [
             "wheel"
           ]
