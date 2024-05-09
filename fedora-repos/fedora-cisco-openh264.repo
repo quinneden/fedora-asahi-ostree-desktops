@@ -5,7 +5,7 @@ type=rpm
 enabled=1
 metadata_expire=14d
 repo_gpgcheck=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=True
 
@@ -16,7 +16,7 @@ type=rpm
 enabled=0
 metadata_expire=14d
 repo_gpgcheck=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=True
 
@@ -27,6 +27,6 @@ type=rpm
 enabled=0
 metadata_expire=14d
 repo_gpgcheck=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=True

@@ -6,7 +6,7 @@ enabled=0
 countme=1
 repo_gpgcheck=0
 type=rpm
-gpgcheck=1
+gpgcheck=0
 metadata_expire=6h
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=False
@@ -18,7 +18,7 @@ metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-testing-debug-f
 enabled=0
 repo_gpgcheck=0
 type=rpm
-gpgcheck=1
+gpgcheck=0
 metadata_expire=6h
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=False
@@ -30,7 +30,7 @@ metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-testing-source-
 enabled=0
 repo_gpgcheck=0
 type=rpm
-gpgcheck=1
+gpgcheck=0
 metadata_expire=6h
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=False
