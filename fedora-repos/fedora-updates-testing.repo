@@ -8,7 +8,7 @@ repo_gpgcheck=0
 type=rpm
 gpgcheck=0
 metadata_expire=6h
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+
 skip_if_unavailable=False
 
 [updates-testing-debuginfo]
@@ -20,7 +20,7 @@ repo_gpgcheck=0
 type=rpm
 gpgcheck=0
 metadata_expire=6h
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+
 skip_if_unavailable=False
 
 [updates-testing-source]
@@ -32,5 +32,5 @@ repo_gpgcheck=0
 type=rpm
 gpgcheck=0
 metadata_expire=6h
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+
 skip_if_unavailable=False
