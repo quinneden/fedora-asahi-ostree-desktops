@@ -3,11 +3,12 @@
     "customizations": {
       "user": [
         {
-          "name": "",
+          "name": "quinn",
           "uid": 1000,
-          "password": "",
+          "password": "cbro",
           "groups": [
-            "wheel"
+            "wheel",
+            "users"
           ]
         }
       ]
