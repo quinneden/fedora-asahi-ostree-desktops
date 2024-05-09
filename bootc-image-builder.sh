@@ -2,9 +2,9 @@
 
 set -ex
 
-sudo podman build . -t kinoite-asahi:39
+sudo podman build . -t kinoite-asahi:latest
 # sudo podman login quay.io
-sudo podman push kinoite-asahi:39 quay.io/qeden/kinoite-asahi:39
+sudo podman push kinoite-asahi:39 quay.io/qeden/kinoite-asahi:latest
 # sudo podman rmi --all    ## Optional, if disk space is limited
 
 mkdir -p output
@@ -20,5 +20,5 @@ sudo podman run \
   quay.io/centos-bootc/bootc-image-builder:latest \
   --type qcow2 \
   --config /config.json \
-  quay.io/qeden/kinoite-asahi:39
+  quay.io/qeden/kinoite-asahi:40
 

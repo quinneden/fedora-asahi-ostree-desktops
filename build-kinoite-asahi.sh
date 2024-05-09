@@ -2,10 +2,10 @@
 
 set -ex
 
-sudo podman build -t kinoite-asahi:39 .
+sudo podman build -t kinoite-asahi:latest .
 # sudo podman login quay.io
 sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi
-sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi:39
+sudo podman push kinoite-asahi quay.io/qeden/kinoite-asahi:latest
 
 
 mkdir -p _build
